@@ -60,6 +60,7 @@ apiVersion: route.openshift.io/v1
 metadata:
   name: myapp
   namespace: example-app
+spec:
   to:
     kind: Service
     name: myapp
