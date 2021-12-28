@@ -33,7 +33,7 @@ spec:
             - '--directory'
             - /tmp
           image: >-
-            registry.redhat.io/ubi8/toolbox
+            quay.io/fjacquinrh/ubi8-toolbox
           ports:
             - containerPort: 8080
               name: http
