@@ -62,7 +62,7 @@ metadata:
   namespace: example-app
   to:
     kind: Service
-    name: example
+    name: myapp
     weight: 100
   port:
     targetPort: http
