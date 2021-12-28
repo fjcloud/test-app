@@ -15,7 +15,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: http
+      app: myapp
   replicas: 3
   template:
     metadata:
