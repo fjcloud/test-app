@@ -33,7 +33,7 @@ spec:
             - '--directory'
             - /tmp
           image: >-
-            quay.io/fjacquinrh/ubi8-toolbox
+            quay.io/fjacquinrh/ubi8-python-39
           ports:
             - containerPort: 8080
               name: http
